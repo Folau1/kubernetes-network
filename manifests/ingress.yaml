@@ -18,7 +18,8 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-    - http:
+    - host: hw14.test
+      http:
         paths:
           - path: /api
             pathType: Prefix
